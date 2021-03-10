@@ -1,0 +1,57 @@
+.Club-container{
+    background-color:#698ccf;
+    width: 20%;
+    text-align: center;
+    margin: 60px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(66, 35, 202, 0.589) 0px 15px 12px;
+    border-radius: 30px;
+}
+.Club-container div img{
+    height: 250px;
+}
+.Club-container div h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+.Club-container div button{
+    color: white;
+    background-color:#da2727;
+    height: 50px;
+    width: 145px;
+    font-size: larger;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 800px){
+    .Club-container div img{
+        height: 150px;
+        width: auto;
+    }
+    .Club-container{
+        width: 30%;
+        margin: 15px;
+    }
+}
+@media only screen and (max-width: 447px){
+    .Club-container{
+        width: 50%;
+        margin: 15px;
+        margin: 40px;
+    }
+}
+@media only screen and (max-width: 257px){
+    .Club-container{
+        width:60% ;
+    }
+    .Club-container div h1{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .Club-container div img{
+        height: 100px;
+    }
+    .Club-container div button{
+        width: 90%;
+    }
+  
+}
