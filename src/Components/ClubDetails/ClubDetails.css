@@ -1,5 +1,5 @@
 .head{
-    background-image: url('../../Images/photo-1599204606395-ede983387d21.jpg');
+    /* background-image: url('../../Images/photo-1599204606395-ede983387d21.jpg'); */
     background-size:cover;
     height:400px;
     text-align:center;
@@ -62,6 +62,7 @@
 margin-top: 50px;
 margin-bottom: 30px;
 padding: 20px;
+font-size:20px;
 }
 @media only screen and (max-width: 800px) {
     .info-container{

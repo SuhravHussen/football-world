@@ -33,6 +33,7 @@ const ClubDetails = () => {
     strFacebook,
     strTwitter,
     strYoutube,
+    strTeamFanart4,
   } = data;
 
   let image;
@@ -45,7 +46,7 @@ const ClubDetails = () => {
 
   return (
     <div className="full-details-body">
-      <div className="head">
+      <div className="head" style={{backgroundImage:`url(${strTeamFanart4})`}}>
         <img src={strTeamBadge} alt='logo'/>
       </div>
       <div className="details-body">
