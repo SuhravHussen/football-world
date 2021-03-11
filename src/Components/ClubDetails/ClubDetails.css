@@ -1,5 +1,5 @@
 .head{
-    background-image: url('../../Images/d93e8203ee372112ee65f06f3e4c31da.jpg');
+    background-image: url('../../Images/photo-1599204606395-ede983387d21.jpg');
     background-size:cover;
     height:400px;
     text-align:center;
@@ -18,7 +18,7 @@
 }
 .info-container{
     display: flex;
-    background: rgb(88, 102, 165);
+    background: #f95700ff;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -40,6 +40,8 @@
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fcf6f5ff;
+
 }
 .footer ul li img{
     height: 50px;
@@ -76,7 +78,7 @@ padding: 20px;
 
   }
 
-  @media only screen and (max-width: 280px){
+  @media only screen and (max-width: 480px){
     .info-container{
         font-size: 10px;
     }
@@ -84,5 +86,8 @@ padding: 20px;
         width: 150px;
         height: 150px;
         margin-top: 90px;
+    }
+    .footer ul li img{
+        margin: 3px;
     }
   }

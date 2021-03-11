@@ -1,11 +1,13 @@
 .Club-container{
-    background-color:#698ccf;
+    color: white;
+    background-color: #F95700FF;
     width: 20%;
     text-align: center;
     margin: 60px;
     padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(66, 35, 202, 0.589) 0px 15px 12px;
-    border-radius: 30px;
+    border-radius: 4px;
+    border: 1px solid #fff7e5;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
 }
 .Club-container div img{
     height: 250px;
@@ -15,12 +17,13 @@
     font-size: 30px;
 }
 .Club-container div button{
-    color: white;
-    background-color:#da2727;
+    color: #231a1a;
+    background-color: #fff7e5;
     height: 50px;
     width: 145px;
     font-size: larger;
     border-radius: 10px;
+    border: none;
 }
 @media only screen and (max-width: 800px){
     .Club-container div img{
