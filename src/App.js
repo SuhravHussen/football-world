@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import AllClubs from './Components/AllClubs/AllClubs';
 import ClubDetails from './Components/ClubDetails/ClubDetails';
